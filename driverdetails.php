@@ -15,6 +15,10 @@
 </head>
 <body>
 	<header class="header">
+		<div class="header__logo-box">
+            <a href="/Trial/"><img src="img/favicon2.png" alt="logo" class="header__logo"></a>
+        </div>
+       
 		<div class="header__text-box">
                 <h1 class="heading-primary">
                 <span class="heading-primary--main"><span class="go">GO</span>TAXI</span>
@@ -28,7 +32,7 @@
 
             </div>
 	</header>
-	<table align="center">
+	<table align="center">       <!-- driver details table -->
 		<tr>
 			<th>ID</th>
 			<th>First Name</th>
